@@ -1,7 +1,9 @@
-<center>#  Jepture - A Static App
+<p align="center">
+#  Jepture - A Static App
 Jepture is a simple static react native app
 
-[![MIT License][license-image]][license-url] [![Stars][stars-image]][stars-url] [![js-standard-style][js-standard][js-standard-url] [![React Native][package-react-native]][react-native-url]</center>
+[![MIT License][license-image]][license-url] [![Stars][stars-image]][stars-url] [![js-standard-style][js-standard]][js-standard-url] [![React Native][package-react-native]][react-native-url]
+</p>
 
 ## Prerequisites
 - Xcode or Android Studio installed and exported on your ~/.bash_profile or similar
