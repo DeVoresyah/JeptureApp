@@ -4,5 +4,9 @@ import { Colors } from '../../Themes/'
 export default StyleSheet.create({
   header: {
     backgroundColor: Colors.backgroundColor
+  },
+  menuIcon: {
+    width: 25,
+    height: 25
   }
 })

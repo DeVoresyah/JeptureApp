@@ -1,6 +1,6 @@
 // leave off @2x/@3x
 const images = {
-  logo: require('../Images/ir.png'),
+  logo: require('../Images/logo-japture.png'),
   clearLogo: require('../Images/top_logo.png'),
   launch: require('../Images/launch-icon.png'),
   ready: require('../Images/your-app.png'),
@@ -19,7 +19,29 @@ const images = {
   chevronRight: require('../Images/Icons/chevron-right.png'),
   hamburger: require('../Images/Icons/hamburger.png'),
   backButton: require('../Images/Icons/back-button.png'),
-  closeButton: require('../Images/Icons/close-button.png')
+  closeButton: require('../Images/Icons/close-button.png'),
+
+  // Bottom Bar Icons
+  profileDefault: require('../Images/profile-default.png'),
+  profileActive: require('../Images/profile-active.png'),
+  earphoneDefault: require('../Images/earphone-default.png'),
+  exploreDefault: require('../Images/explore-default.png'),
+  downloadDefault: require('../Images/download-default.png'),
+  downloadActive: require('../Images/download-active.png'),
+
+  // Sample Images
+  image1: require('../Images/image1.png'),
+  image2: require('../Images/image2.png'),
+  image3: require('../Images/image3.png'),
+  image4: require('../Images/image4.png'),
+
+  // Others
+  playIcon: require('../Images/play-icon.png'),
+  detailIcon: require('../Images/detail-icon.png'),
+  profileAvatar: require('../Images/avatar.png'),
+  profileDownload: require('../Images/profile-download.png'),
+  profilePlaylist: require('../Images/profile-playlist.png'),
+  arrowRight: require('../Images/arrow-right.png')
 }
 
 export default images

@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "androidx": "npm i jetifier && npx jetify",
+    "rm-git": "rm -rf node_modules/*/.git",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean --force",
@@ -27,7 +29,10 @@
     "apisauce": "^1.0.2",
     "format-json": "^1.0.3",
     "identity-obj-proxy": "^3.0.0",
+    "jetifier": "^1.6.4",
     "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.5",
     "prop-types": "^15.6.1",
     "querystringify": "2.1.0",
     "ramda": "^0.26.1",
@@ -46,6 +51,7 @@
     "redux-persist": "^5.10.0",
     "redux-saga": "^1.0.0",
     "reduxsauce": "1.0.1",
+    "rn-placeholder": "^3.0.0",
     "seamless-immutable": "^7.1.4"
   },
   "devDependencies": {

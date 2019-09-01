@@ -1,6 +1,10 @@
 const type = {
+  light: 'Poppins-Light',
+  regular: 'Poppins-Regular',
+  medium: 'Poppins-Medium',
+  semi: 'Poppins-SemiBold',
   base: 'Avenir-Book',
-  bold: 'Avenir-Black',
+  bold: 'Poppins-Bold',
   emphasis: 'HelveticaNeue-Italic'
 }
 
